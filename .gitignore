@@ -1,0 +1,161 @@
+# ==========================================
+# Personal AI Coworkers - .gitignore
+# ==========================================
+
+# ------------------------------------------
+# Python Bytecode and Cache
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ------------------------------------------
+# Virtual Environments
+# ------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.python-version
+
+# ------------------------------------------
+# Environment Variables and API Keys
+# ------------------------------------------
+.env
+*env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ------------------------------------------
+# SQLite Databases
+# ------------------------------------------
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ------------------------------------------
+# Generated Agent Outputs
+# ------------------------------------------
+outputs/
+logs/
+*.log
+
+# ------------------------------------------
+# Temporary Files
+# ------------------------------------------
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+# Testing and Coverage
+# ------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+test-results/
+.tox/
+.nox/
+.hypothesis/
+
+# ------------------------------------------
+# Type Checking and Linting
+# ------------------------------------------
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ------------------------------------------
+# Jupyter Notebooks
+# ------------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------------
+# Streamlit
+# ------------------------------------------
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.streamlit/config.local.toml
+
+# ------------------------------------------
+# LangChain / LangGraph / LangSmith
+# ------------------------------------------
+.langgraph_api/
+.langgraph/
+langgraph.db
+langgraph.sqlite
+langgraph.sqlite3
+
+# ------------------------------------------
+# IDE and Editor Files
+# ------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ------------------------------------------
+# macOS
+# ------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------------------
+# Windows
+# ------------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------------------
+# Linux
+# ------------------------------------------
+.directory
+*~
+
+# ------------------------------------------
+# Python Build Artifacts
+# ------------------------------------------
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# ------------------------------------------
+# Package Management
+# ------------------------------------------
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ------------------------------------------
+# Local Development Files
+# ------------------------------------------
+.local/
+.cache/
+scratch/

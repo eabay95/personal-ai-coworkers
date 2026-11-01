@@ -1,0 +1,20 @@
+# AI / LLM
+openai
+langchain
+langchain-openai
+langgraph
+pydantic
+
+# Environment Variables
+python-dotenv
+
+# Web Requests and Article Retrieval
+requests
+beautifulsoup4
+feedparser
+
+# Web Interface
+streamlit
+
+# Testing
+pytest

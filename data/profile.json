@@ -1,0 +1,51 @@
+{
+  "name": "Elias Abay",
+  "university": "San Jose State University",
+  "degree": "MS Software Engineering",
+  "graduation": "May 2028",
+  "experience": {
+    "company": "Fastly",
+    "role": "Platform Software Engineer",
+    "years": 2
+  },
+  "technical_interests": [
+    "Agentic AI",
+    "Retrieval Augmented Generation",
+    "Backend Engineering",
+    "Distributed Systems",
+    "Cloud Computing",
+    "Machine Learning"
+  ],
+  "career_goals": [
+    "Summer 2027 Software Engineering Internship",
+    "Bay Area Software Engineering Career"
+  ],
+  "target_companies": [
+    "Meta",
+    "Google",
+    "NVIDIA",
+    "Salesforce",
+    "Amazon",
+    "IBM"
+  ],
+  "preferred_language": "Python",
+  "improvement_areas": [
+    "Data Structures and Algorithms",
+    "System Design",
+    "Technical Interviews"
+  ],
+  "demonstrated_skills": [
+    "Python",
+    "Platform Engineering",
+    "Cloud Infrastructure",
+    "RAG",
+    "AI Agents"
+  ],
+  "skills_to_assess": [
+    "Data Structures and Algorithms",
+    "REST API Development",
+    "SQL",
+    "Git",
+    "System Design"
+  ]
+}
